@@ -327,7 +327,7 @@ footer .social-links {
     .post ul li {
         min-height: 350px;
         max-height: 3500px;
-        margin: 1rem 2rem;
+        margin: 1rem 5rem;
         flex: 1 0 300px;
     }
 
