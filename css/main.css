@@ -253,12 +253,17 @@ p{
 }
 
 footer{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #0D5061;
     color:#D7DEE6;
 }
 
 footer .social-links {
-    margin: 0;
+    margin-bottom: 0;
+    margin-top: 2em;
 }
 
 .menu {
