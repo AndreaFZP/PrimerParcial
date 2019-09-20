@@ -367,6 +367,14 @@ footer .social-links {
         width: 50%;  
     }
 
+    .green-area ul{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
 
 
 }
