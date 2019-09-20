@@ -335,7 +335,7 @@ footer .social-links {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr ;
         grid-auto-flow: dense;
-        column-gap: 2em; 
+        column-gap: 5em; 
     }
     
     .about{
@@ -346,13 +346,13 @@ footer .social-links {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 1.125em;
-        margin: 2em;
-        grid-row: span 1.5;
+        margin-top: 0.5em;
+        grid-row: span 1;
         grid-column: span 2;
     }
     
-    .bio-info{
-    
+    .contact-form input:last-child{
+        width: 50%;  
     }
 
 
