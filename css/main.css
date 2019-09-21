@@ -60,6 +60,8 @@ p{
 }
 
 /* Big area */
+
+/*Modelando el contenedor para posts*/
 .big-hero .container{
     margin-top: 4em;
     display: flex;
@@ -221,6 +223,7 @@ p{
     width: 100%;
 }
 
+/*Personalizando solamente el último botón con márgenes*/
 .contact-form input:last-child{
     margin-top: 10px;
     margin-bottom: 2.5em;
@@ -252,6 +255,7 @@ p{
     background-image: url("../images/decoracion_oscura_small.svg");
 }
 
+/*Añadiendo flex al footer para mejor compatibilidad con el diseño*/
 footer{
     display:flex;
     flex-direction: column;
@@ -261,6 +265,7 @@ footer{
     color:#D7DEE6;
 }
 
+/**/
 footer .social-links {
     margin-bottom: 0;
     margin-top: 2em;
