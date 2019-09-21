@@ -379,22 +379,12 @@ footer .social-links {
         grid-column: span 2;
     }
     
+    /*Reduciendo el tamaño del último botón*/
     .contact-form input:last-child{
         width: 50%;  
     }
 
-    .green-area ul{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
-    .post ul {
-        list-style: none;
-        display:flex;
-        
-    }
+  
 
 
 
