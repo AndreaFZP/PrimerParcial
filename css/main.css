@@ -356,6 +356,20 @@ footer .social-links {
 } 
 
 @media only screen and (min-width: 1024px) {
+    /*Estableciendo el diseño al contenedor de posts*/
+    .green-area ul{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    .post ul {
+        list-style: none;
+        display:flex;
+        
+    }
+    
     /*Distribuyendo el contenido en un GridLayout*/
     .about .container{
         display:grid;
