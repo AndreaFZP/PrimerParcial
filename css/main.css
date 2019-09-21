@@ -293,6 +293,10 @@ footer .social-links {
     
 }
 
+.menu li:nth-child(4) a{
+    color: red;
+}
+
 
 /* Pesonalizando estilo para tablets*/
 @media only screen and (min-width: 768px)  {
