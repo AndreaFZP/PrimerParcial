@@ -265,7 +265,7 @@ footer{
     color:#D7DEE6;
 }
 
-
+/*Añadiendo márgenes */
 footer .social-links {
     margin-bottom: 0;
     margin-top: 2em;
@@ -314,7 +314,7 @@ footer .social-links {
         justify-content: center;
     }
 
-    /**/
+    /*Quitando el formato de lista*/
     .post ul {
         list-style: none;
       
@@ -393,7 +393,8 @@ footer .social-links {
         grid-column: span 2;
     }
     
-    /*Reduciendo el tamaño del último botón*/
+    /*Reduciendo el tamaño del último botón justo a la mitad
+    del tamaño de la columna*/
     .contact-form input:last-child{
         width: 50%;  
     }
@@ -401,6 +402,7 @@ footer .social-links {
 }
 
 @media only screen and (min-width: 1440px) {
+    /*Distribuyendo en filas el contenido para una vista más simétrica*/
     .green-area ul{
         display:flex;
         flex-direction: row;
@@ -408,18 +410,22 @@ footer .social-links {
         justify-content: center;
 
     }
+    /*Añadiendo flex a la lista de publicaciones*/
     .post ul {
         list-style: none;
         display:flex;
         
     }
-
+    /*Delimitando el tamaño de cada elemento de la lista para mantenerlo
+    en una sola fila en vista normal*/
     .post ul li {
         min-height: 300px;
         max-width: 350px;
         margin: 2rem auto;
     }
     
+    /*Adaptando el contenedor para evitar desbordamiento
+    de elementos*/
     .container {
         width: 80%;
         margin: 0 auto;
