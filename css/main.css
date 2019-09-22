@@ -19,30 +19,37 @@ body {
     font-weight: 400;
 }
 
+/*Se necesita para que el header no se distorcione*/
 .header {
     display: flex;
     justify-content: space-between
 }
 
+/*Texto logotipo*/
 .src-only {
     display: none;
 }
 
+/*Elementos adaptados para móviles no se muestran en resoluciones
+mayores*/
 .hide-mobile {
     display: none;
 }
 
+/*Apariencia del parrafo descriptivo*/
 p{
     font-size: 0.75em;
     padding: 1rem;
     line-height: 25px;
 }
 
+/*Apariencia logotipo*/
 .logo {
     width: 90px;
     margin: 1em;
 }
 
+/*Visualización de los links de navegación en móviles*/
 .options {
     color: inherit;
     text-decoration: none;
@@ -56,13 +63,15 @@ p{
     align-items: flex-start;
 
 }
+/*Tamaño de fuente solamenta para el ultimo elemento de la
+lista de opciones (móviles)*/
 .options i:last-child {
     font-size: 1.6rem;
 }
 
 /* Big area */
 
-/*Modelando el contenedor para posts*/
+/*Modelando el contenedor de cabecera*/
 .big-hero .container{
     margin-top: 4em;
     display: flex;
@@ -70,6 +79,7 @@ p{
     justify-content: center;
     flex-wrap: wrap;
 }
+/**/
 .big-hero img {
     align-self: center;
     width: 150px;
