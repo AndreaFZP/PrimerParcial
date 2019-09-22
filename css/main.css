@@ -36,7 +36,7 @@ mayores*/
     display: none;
 }
 
-/*Apariencia del parrafo descriptivo*/
+/*Apariencia del parrafo general*/
 p{
     font-size: 0.75em;
     padding: 1rem;
@@ -79,12 +79,14 @@ lista de opciones (móviles)*/
     justify-content: center;
     flex-wrap: wrap;
 }
-/**/
+
+/*Imagen de cabecera*/
 .big-hero img {
     align-self: center;
     width: 150px;
 }
 
+/*Apariencia del título de cabecera*/
 .big-hero h2 {
     font-size: 1.875em;
     font-weight: 700;
@@ -92,6 +94,7 @@ lista de opciones (móviles)*/
     margin-top: 1em ;
 }
 
+/*Apariencia del parrafo descriptivo*/
 .big-hero p {
     font-size: 0.7em;;
     color: #D7DEE6;
@@ -108,6 +111,7 @@ lista de opciones (móviles)*/
     margin-bottom: 2.5em;
 }
 
+/*Apariencia de la lista con redes sociales*/
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
@@ -116,6 +120,7 @@ lista de opciones (móviles)*/
     
 }
 
+/*Botón para bajar a posts*/
 .big-hero a{
     font-size:2.5em;
     color: #0AC693;
@@ -123,16 +128,18 @@ lista de opciones (móviles)*/
     
 }
 
-
+/*Color del área de publicaciones*/
 .green-area {
     background-color: #0AC693; 
 }
 
-
+/*Diseño general del container post*/
 .post {
     padding: 1em;
     margin-bottom: -2px;
 }
+
+/*Subtema publicaciones*/
 .post h2 {
     text-transform: uppercase;
     font-weight: 700;
@@ -140,16 +147,19 @@ lista de opciones (móviles)*/
     margin: 1em;
 }
 
+/*Lista sin estilo*/
 .post ul {
     list-style: none;
 }
 
+/*Visualización predeterminada de las publicaciones*/
 .post ul li {
     min-height: 300px;
     max-width: 350px;
     margin: 2rem auto;
 }
 
+/*Disposición del contenido de publicaciones*/
 .post ul li article {
     overflow: hidden;
     border-radius: 10px;
@@ -158,6 +168,7 @@ lista de opciones (móviles)*/
     padding-bottom: 2em;
 }
 
+/*Tamaño y estilo predeterminado de imágenes*/
 .post article img{
     height: 150px;
     width: 100%;
