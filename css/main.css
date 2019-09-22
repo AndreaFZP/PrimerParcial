@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*font-size: calc(0.5em + 1vh);*/
+    /*font-size: calc(0.5em + 1vh); para una mejor distribución
+    se quita el cálculo por defecto de la fuente de todo el sitio*/
 }
 
 /* El estilo base para moviles */
